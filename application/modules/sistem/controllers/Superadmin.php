@@ -1052,7 +1052,7 @@ class Superadmin extends CI_Controller {
 			}
 			//}
 		}
-		redirect('superadmin/presensipegawai');
+		redirect('sistem/superadmin/presensipegawai');
 
 	}
 
@@ -1174,7 +1174,7 @@ class Superadmin extends CI_Controller {
 	public function updatedatpeg(){
 		$data['nama'] = $this->session->Nama;
 		$data['foto'] = $this->session->foto;
-		$data['rowpeg'] = $this->pegawai_model->rowPegawai($this->uri->segment(3));
+		$data['rowpeg'] = $this->pegawai_model->rowPegawai($this->uri->segment(4));
 		$this->template->load('superadmin/dashboard','superadmin/updatedatpeg', $data);
 		if($this->input->post('submit')){
 			$this->load->model('pegawai_model');
@@ -1227,7 +1227,7 @@ class Superadmin extends CI_Controller {
 		$this->load->model('pegawai_model');
 		$this->pegawai_model->deletedatpeg($id);
 		$this->session->set_flashdata('warning','<script>swal("Berhasil!", "Data Berhasil Dihapus", "success")</script>');
-		redirect('superadmin/pegawaibaru#editdatpeg');
+		redirect('sistem/superadmin/pegawaibaru#editdatpeg');
 	}
 
 	public function harilibur()

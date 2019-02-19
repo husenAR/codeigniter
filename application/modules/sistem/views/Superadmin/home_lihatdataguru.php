@@ -63,7 +63,7 @@
                             <?php
                             if ($this->session->userdata('jabatan') == 'Superadmin') {
                               ?>
-                              <a  href="<?php echo site_url('superadmin/detailspegawai/');?><?php echo $key->NIP; ?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Details</a>
+                              <a  href="<?php echo site_url('sistem/superadmin/detailspegawai/');?><?php echo $key->NIP; ?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Details</a>
                               <?php
                             } else if ($this->session->userdata('jabatan') == 'Kepala Sekolah') {
                               ?>
@@ -72,7 +72,7 @@
 
                             } else if ($this->session->userdata('jabatan') == 'Pegawai'){
                               ?>
-                              <a  href="<?php echo site_url('pegawai/detailspegawai/');?><?php echo $key->NIP; ?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Details</a>
+                              <a  href="<?php echo site_url('sistem/pegawai/detailspegawai/');?><?php echo $key->NIP; ?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Details</a>
                               <?php
                             } 
                             ?>

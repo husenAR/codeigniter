@@ -8,7 +8,7 @@
       <br>
     </h1>
     <ol class="breadcrumb">
-      <li><a href="<?php echo site_url('superadmin');?>">Dashboard</a></li>
+      <li><a href="<?php echo site_url('sistem/superadmin');?>">Dashboard</a></li>
     </ol>
   </section>
 
@@ -81,7 +81,7 @@
 
               <div style="overflow: auto">
                 
-                <form action="<?php echo site_url('superadmin/submitpresensisiswa'); ?>" method="post" accept-charset="utf-8">
+                <form action="<?php echo site_url('sistem/superadmin/submitpresensisiswa'); ?>" method="post" accept-charset="utf-8">
                   <input type="hidden" name="bln" value="<?php echo $bln; ?>">
                   <input type="hidden" name="thn" value="<?php echo $thn; ?>">
                   <?php

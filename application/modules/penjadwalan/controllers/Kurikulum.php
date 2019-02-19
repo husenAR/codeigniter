@@ -21,7 +21,7 @@ class Kurikulum extends CI_Controller {
 	public function index()
 	{
 		$data['nama'] = $this->session->Nama;
-		$data['foto'] = $this->session->foto; 
+		$data['foto'] = $this->session->foto;
 		$this->template->load('kurikulum/dashboard_kurikulum','kurikulum/home',$data);
 	}
 

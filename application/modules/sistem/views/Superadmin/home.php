@@ -253,21 +253,21 @@
                <div class="chart tab-pane " id="usia" style="position: relative;">
                 <div class="box-body">
                   <div id="grafikusia"></div>
-                   <a href="<?php echo site_url('superadmin/grafikusia'); ?>" class="btnjdwl btn btn-default"><i class="fa fa-bar-chart-o text-red "></i> Lihat Pegawai</a>
+                   <a href="<?php echo site_url('sistem/superadmin/grafikusia'); ?>" class="btnjdwl btn btn-default"><i class="fa fa-bar-chart-o text-red "></i> Lihat Pegawai</a>
                 </div>
               </div>
 
                <div class="chart tab-pane " id="pendidikan" style="position: relative;">
                 <div class="box-body">
                   <div id="grafikpendidikan"></div>
-                  <a href="<?php echo site_url('superadmin/grafikpendidikan'); ?>" class="btnjdwl btn btn-default"><i class="fa fa-bar-chart-o text-red "></i> Lihat Pegawai</a>
+                  <a href="<?php echo site_url('sistem/superadmin/grafikpendidikan'); ?>" class="btnjdwl btn btn-default"><i class="fa fa-bar-chart-o text-red "></i> Lihat Pegawai</a>
                 </div>
               </div>
 
                <div class="chart tab-pane " id="pensiun" style="position: relative;">
                 <div class="box-body">
                   <div id="grafikpensiun"></div>
-                  <a href="<?php echo site_url('superadmin/grafikpensiun'); ?>" class="btnjdwl btn btn-default"><i class="fa fa-bar-chart-o text-red "></i> Lihat Pegawai</a>
+                  <a href="<?php echo site_url('sistem/superadmin/grafikpensiun'); ?>" class="btnjdwl btn btn-default"><i class="fa fa-bar-chart-o text-red "></i> Lihat Pegawai</a>
                 </div>
               </div>
               

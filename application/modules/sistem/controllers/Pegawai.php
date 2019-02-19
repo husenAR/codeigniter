@@ -545,6 +545,7 @@ class Pegawai extends CI_Controller {
 				
 				$this->load->model('akun_model');
 				$this->akun_model->update(array("password"=>$passwordbaru), $cek->id_akun);
+				$this->session->set_flashdata("warning",'<script> swal( "Berhasil" ,  "Password Berhasil Diubah !" ,  "success" )</script>');
 
 				// redirect($result->url.'/');
 				redirect('sistem/pegawai/gantipassword');

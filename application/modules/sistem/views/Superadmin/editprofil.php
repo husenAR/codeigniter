@@ -30,7 +30,7 @@
 
 
           <div class="tab-pane" id="editdatpeg">
-            <form class="form-horizontal formmapel" method="post" action="<?php echo site_url('superadmin/editprofil/'.$rowpeg->NIP); ?>" enctype="multipart/form-data">
+            <form class="form-horizontal formmapel" method="post" action="<?php echo site_url('sistem/superadmin/editprofil/'.$rowpeg->NIP); ?>" enctype="multipart/form-data">
               <div class="bigbox-mapel"> 
                 <div class="box-mapel" style="padding: 2% 0">
                   <!-- tmpat -->
@@ -223,7 +223,7 @@
    <div class="form-group">
     <div class="col-sm-offset-2 col-sm-5">
       <input onclick="return confirm('Apakah Anda yakin akan mengedit data ini?');" name="submit" type="submit" role="button" class="btn btn-danger" value="Edit">
-      <a href="<?php echo site_url('superadmin/profile');?>" type="button" role="button" class="btn btn-danger">Cancel</a>
+      <a href="<?php echo site_url('sistem/superadmin/profile');?>" type="button" role="button" class="btn btn-danger">Cancel</a>
     </div>
   </div>
 </form>

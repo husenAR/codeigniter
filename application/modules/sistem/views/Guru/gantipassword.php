@@ -22,7 +22,7 @@
 
               <div class="tab-pane" id="gantipassword">
                 <div class="form-group"> <?php echo $this->session->flashdata('warning')?></div>
-                <form class="form-horizontal formmapel" method="post" action="<?php echo site_url('guru/updatepassword'); ?>">
+                <form class="form-horizontal formmapel" method="post" action="<?php echo site_url('sistem/pegawai/updatepassword'); ?>">
                   <div class="bigbox-mapel"> 
                   <div class="box-header">
                   <br>
@@ -65,8 +65,6 @@
                       <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-5"> 
                       <button type="submit" role="button" class="btn btn-danger">Ganti Password</button>
-                         <a href="<?php echo site_url('guru/gantipassword');?>" type="button" role="button" class="btn btn-danger">Cancel</a>
-                          
                         </div>
                       </div>
                     </div>

@@ -93,7 +93,7 @@ function drawCal($bln, $thn, $simbol) {
 
           <header class="main-header">
             <!-- Logo -->
-            <a href="dashboard.php" class="logo">
+            <a href="<?php echo base_url();?>nilai/akademik/KALDIK" class="logo">
               <!-- mini logo for sidebar mini 50x50 pixels -->
               <!-- logo for regular state and mobile devices -->
               <span class="logo-lg"><b>SI</b>SMP</span>
@@ -159,7 +159,7 @@ function drawCal($bln, $thn, $simbol) {
               <!-- Sidebar user panel -->
 
               <!-- search form -->
-              <form action="#" method="get" class="sidebar-form">
+              <!-- <form action="#" method="get" class="sidebar-form">
                 <div class="input-group">
                   <input type="text" name="q" class="form-control" placeholder="Search...">
                   <span class="input-group-btn">
@@ -167,11 +167,11 @@ function drawCal($bln, $thn, $simbol) {
                     </button>
                   </span>
                 </div>
-              </form>
+              </form> -->
               <!-- /.search form -->
               <!-- sidebar menu: : style can be found in sidebar.less -->
               <ul class="sidebar-menu">
-                <li class="header">KBM</li>
+                <!-- <li class="header">KBM</li> -->
                 <?php
                 if ($this->session->userdata("jabatan") == "Admin") {
                   ?>
@@ -535,6 +535,7 @@ function drawCal($bln, $thn, $simbol) {
             <center><small>Tahun Ajaran <?php echo $judul_tahun_ajaran; ?></small></center>
           </h1>
           <ol class="breadcrumb">
+            <!-- <li><a href="<?php echo base_url();?>nilai/akademik/KALDIK">Dashboard </a></li> -->
             <li><a href="dashboard.php">Dashboard </a></li>
           </ol>
         </section>

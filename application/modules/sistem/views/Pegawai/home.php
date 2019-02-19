@@ -16,7 +16,7 @@
         <small>Control panel</small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="<?php echo base_url();?>pegawai"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="<?php echo base_url();?>sistem/pegawai"><i class="fa fa-dashboard"></i> Home</a></li>
         <li class="active">Dashboard</li>
       </ol>
     </section>
@@ -36,7 +36,7 @@
             <div class="icon">
               <i class="ion ion-ios-people"></i>
             </div>
-            <a href="<?php echo base_url();?>pegawai/homedatapegawai" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="<?php echo base_url();?>sistem/pegawai/homedatapegawai" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -51,7 +51,7 @@
             <div class="icon"> 
               <i class="ion" style="font-size: 70%;"> Guru</i>
             </div>
-            <a href="<?php echo base_url();?>pegawai/homedataguru" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="<?php echo base_url();?>sistem/pegawai/homedataguru" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -82,7 +82,7 @@
             <div class="icon">
               <i class="ion" style="font-size: 60%;"> Pensiun</i>
             </div>
-            <a href="<?php echo base_url();?>pegawai/homedatapensiun" class="small-box-footer">More info <i classs="fa fa-arrow-circle-right"></i></a>
+            <a href="<?php echo base_url();?>sistem/pegawai/homedatapensiun" class="small-box-footer">More info <i classs="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -121,21 +121,21 @@
                <div class="chart tab-pane " id="usia" style="position: relative;">
                 <div class="box-body">
                   <div id="grafikusia"></div>
-                   <a href="<?php echo site_url('pegawai/grafikusia'); ?>" class="btnjdwl btn btn-default"><i class="fa fa-bar-chart-o text-red "></i> Lihat Pegawai</a>
+                   <a href="<?php echo site_url('sistem/pegawai/grafikusia'); ?>" class="btnjdwl btn btn-default"><i class="fa fa-bar-chart-o text-red "></i> Lihat Pegawai</a>
                 </div>
               </div>
 
                <div class="chart tab-pane " id="pendidikan" style="position: relative;">
                 <div class="box-body">
                   <div id="grafikpendidikan"></div>
-                  <a href="<?php echo site_url('pegawai/grafikpendidikan'); ?>" class="btnjdwl btn btn-default"><i class="fa fa-bar-chart-o text-red "></i> Lihat Pegawai</a>
+                  <a href="<?php echo site_url('sistem/pegawai/grafikpendidikan'); ?>" class="btnjdwl btn btn-default"><i class="fa fa-bar-chart-o text-red "></i> Lihat Pegawai</a>
                 </div>
               </div>
 
                <div class="chart tab-pane " id="pensiun" style="position: relative;">
                 <div class="box-body">
                   <div id="grafikpensiun"></div>
-                  <a href="<?php echo site_url('pegawai/grafikpensiun'); ?>" class="btnjdwl btn btn-default"><i class="fa fa-bar-chart-o text-red "></i> Lihat Pegawai</a>
+                  <a href="<?php echo site_url('sistem/pegawai/grafikpensiun'); ?>" class="btnjdwl btn btn-default"><i class="fa fa-bar-chart-o text-red "></i> Lihat Pegawai</a>
                 </div>
               </div>
               

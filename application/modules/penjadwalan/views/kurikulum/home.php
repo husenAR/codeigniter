@@ -5,7 +5,7 @@
       <small>Control panel</small>
     </h1>
     <ol class="breadcrumb">
-      <li class="active"><a href="<?php echo base_url();?>index.php/kurikulum">Dashboard</li>
+      <li class="active"><a href="<?php echo base_url();?>index.php/penjadwalan/kurikulum">Dashboard</li>
     </ol>
   </section>
 

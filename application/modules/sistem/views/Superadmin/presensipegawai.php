@@ -8,7 +8,7 @@
       <br>
     </h1>
     <ol class="breadcrumb">
-      <li><a href="<?php echo site_url('superadmin');?>">Dashboard</a></li>
+      <li><a href="<?php echo site_url('sistem/superadmin');?>">Dashboard</a></li>
     </ol>
   </section>
 
@@ -64,7 +64,7 @@
               <div class="box-body">
 
                 <div style="overflow: auto">
-                  <form action="<?php echo site_url('superadmin/submitpresensipegawai'); ?>" method="post" accept-charset="utf-8">
+                  <form action="<?php echo site_url('sistem/superadmin/submitpresensipegawai'); ?>" method="post" accept-charset="utf-8">
                     <input type="hidden" name="bln" value="<?php echo $bln; ?>">
                     <input type="hidden" name="thn" value="<?php echo $thn; ?>">
                     <input type="hidden" name="tgl" value="<?php echo $tgl; ?>">
@@ -300,7 +300,7 @@
                             <?php
                           }
                           ?>
-                          <td><a href="<?php echo site_url('superadmin/resumepresensipegawai/'.$rowpeg->NIP.'/'.$thn.'/'.$i); ?>"><?php echo $rowpeg->Nama; ?></a></td>
+                          <td><a href="<?php echo site_url('sistem/superadmin/resumepresensipegawai/'.$rowpeg->NIP.'/'.$thn.'/'.$i); ?>"><?php echo $rowpeg->Nama; ?></a></td>
                           <td><?php echo $datpresensibulan[$rowpeg->NIP][$i]['H']; ?></td>
                           <td><?php echo $datpresensibulan[$rowpeg->NIP][$i]['S']; ?></td>
                           <td><?php echo $datpresensibulan[$rowpeg->NIP][$i]['I']; ?></td>
@@ -389,7 +389,7 @@
                       <?php
                       }
                       ?>
-                     <td><a href="<?php echo site_url('superadmin/resumepresensipegawaisemester/'.$rowpeg->NIP.'/'.$thn.'/'.$i); ?>"><?php echo $rowpeg->Nama; ?></a></td>                    
+                     <td><a href="<?php echo site_url('sistem/superadmin/resumepresensipegawaisemester/'.$rowpeg->NIP.'/'.$thn.'/'.$i); ?>"><?php echo $rowpeg->Nama; ?></a></td>                    
                        <td><?php echo $datpresensisemester[$rowpeg->NIP][$i]['H']; ?></td>
                       <td><?php echo $datpresensisemester[$rowpeg->NIP][$i]['S']; ?></td>
                       <td><?php echo $datpresensisemester[$rowpeg->NIP][$i]['I']; ?></td>

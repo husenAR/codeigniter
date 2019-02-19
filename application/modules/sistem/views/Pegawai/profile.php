@@ -7,7 +7,7 @@
     <?php
     if ($this->session->userdata('jabatan') == 'Guru') {
       ?>
-      <h2><a href="<?php echo base_url();?>guru/editprofil" class="btn btn-danger">Edit Data Diri</a></h2>
+      <h2><a href="<?php echo base_url();?>sistem/guru/editprofil" class="btn btn-danger">Edit Data Diri</a></h2>
       <?php
     }
     ?>
@@ -15,7 +15,7 @@
     <?php
     if ($this->session->userdata('jabatan') == 'Karyawan') {
       ?>
-      <h2><a href="<?php echo base_url();?>karyawan/editprofil" class="btn btn-danger">Edit Data Diri</a></h2>
+      <h2><a href="<?php echo base_url();?>sistem/karyawan/editprofil" class="btn btn-danger">Edit Data Diri</a></h2>
       <?php
     }
     ?>
@@ -23,7 +23,7 @@
      <?php
     if ($this->session->userdata('jabatan') == 'Kepala Sekolah') {
       ?>
-      <h2><a href="<?php echo base_url();?>kepsek/editprofil" class="btn btn-danger">Edit Data Diri</a></h2>
+      <h2><a href="<?php echo base_url();?>sistem/kepsek/editprofil" class="btn btn-danger">Edit Data Diri</a></h2>
       <?php
     }
     ?>
@@ -32,7 +32,7 @@
     <?php
     if ($this->session->userdata('jabatan') == 'Kesiswaan') {
       ?>
-      <h2><a href="<?php echo base_url();?>kesiswaan/editprofil" class="btn btn-danger">Edit Data Diri</a></h2>
+      <h2><a href="<?php echo base_url();?>sistem/kesiswaan/editprofil" class="btn btn-danger">Edit Data Diri</a></h2>
       <?php
     }
     ?>
@@ -40,7 +40,7 @@
      <?php
     if ($this->session->userdata('jabatan') == 'Konseling') {
       ?>
-      <h2><a href="<?php echo base_url();?>konseling/editprofil" class="btn btn-danger">Edit Data Diri</a></h2>
+      <h2><a href="<?php echo base_url();?>sistem/konseling/editprofil" class="btn btn-danger">Edit Data Diri</a></h2>
       <?php
     }
     ?>
@@ -48,7 +48,7 @@
      <?php
     if ($this->session->userdata('jabatan') == 'Kurikulum') {
       ?>
-      <h2><a href="<?php echo base_url();?>kurikulum/editprofil" class="btn btn-danger">Edit Data Diri</a></h2>
+      <h2><a href="<?php echo base_url();?>sistem/kurikulum/editprofil" class="btn btn-danger">Edit Data Diri</a></h2>
       <?php
     }
     ?>
@@ -56,7 +56,7 @@
     <?php
     if ($this->session->userdata('jabatan') == 'Pegawai') {
       ?>
-      <h2><a href="<?php echo base_url();?>pegawai/editprofil" class="btn btn-danger">Edit Data Diri</a></h2>
+      <h2><a href="<?php echo base_url();?>sistem/pegawai/editprofil" class="btn btn-danger">Edit Data Diri</a></h2>
       <?php
     }
     ?>
@@ -64,7 +64,7 @@
        <?php
     if ($this->session->userdata('jabatan') == 'Pembimbing') {
       ?>
-      <h2><a href="<?php echo base_url();?>pembimbing/editprofil" class="btn btn-danger">Edit Data Diri</a></h2>
+      <h2><a href="<?php echo base_url();?>sistem/pembimbing/editprofil" class="btn btn-danger">Edit Data Diri</a></h2>
       <?php
     }
     ?>
@@ -72,7 +72,7 @@
     <?php
     if ($this->session->userdata('jabatan') == 'Superadmin') {
       ?>
-      <h2><a href="<?php echo base_url();?>superadmin/editprofil" class="btn btn-danger">Edit Data Diri</a></h2>
+      <h2><a href="<?php echo base_url();?>sistem/superadmin/editprofil" class="btn btn-danger">Edit Data Diri</a></h2>
       <?php
     }
     ?>

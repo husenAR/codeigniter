@@ -104,7 +104,7 @@
                             <?php
                           }
                           ?>
-                          <td><a href="<?php echo site_url('superadmin/resumepresensipegawai/'.$rowpeg->NIP.'/'.$thn.'/'.$i); ?>"><?php echo $rowpeg->Nama; ?></a></td>
+                          <td><a href="<?php echo site_url('sistem/superadmin/resumepresensipegawai/'.$rowpeg->NIP.'/'.$thn.'/'.$i); ?>"><?php echo $rowpeg->Nama; ?></a></td>
                           <?php if ((@$this->uri->segment(3) == "hadir") || (@$this->uri->segment(3) == "")) { ?><td><?php echo $datpresensibulan[$rowpeg->NIP][$i]['H']; ?></td><?php } ?>
                           <?php if ((@$this->uri->segment(3) == "sakit") || (@$this->uri->segment(3) == "")) { ?><td><?php echo $datpresensibulan[$rowpeg->NIP][$i]['S']; ?></td><?php } ?>
                           <?php if ((@$this->uri->segment(3) == "ijin") || (@$this->uri->segment(3) == "")) { ?><td><?php echo $datpresensibulan[$rowpeg->NIP][$i]['I']; ?></td><?php } ?>

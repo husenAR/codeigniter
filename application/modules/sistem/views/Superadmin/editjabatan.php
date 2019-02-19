@@ -28,7 +28,7 @@
               ?>
 
               <div class="tab-pane" id="updatejab">
-                <form class="form-horizontal formmapel" method="post" action="<?php echo site_url('superadmin/updatejab'); ?>">
+                <form class="form-horizontal formmapel" method="post" action="<?php echo site_url('sistem/superadmin/updatejab'); ?>">
                   <div class="bigbox-mapel"> 
                     <div class="box-mapel" style="padding: 2% 0">
 

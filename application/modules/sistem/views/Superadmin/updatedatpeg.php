@@ -28,7 +28,7 @@
 
 
           <div class="tab-pane" id="editdatpeg">
-            <form class="form-horizontal formmapel" method="post" action="<?php echo site_url('superadmin/updatedatpeg/'.$rowpeg->NIP); ?>" enctype="multipart/form-data">
+            <form class="form-horizontal formmapel" method="post" action="<?php echo site_url('sistem/superadmin/updatedatpeg/'.$rowpeg->NIP); ?>" enctype="multipart/form-data">
               <div class="bigbox-mapel"> 
                 <div class="box-mapel" style="padding: 2% 0">
 

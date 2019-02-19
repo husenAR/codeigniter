@@ -24,7 +24,7 @@
       <!-- <center><small>Tahun Ajaran 2016-2017</small></center> -->
     </h1>
     <ol class="breadcrumb">
-      <li><a href="dashboard.php">Dashboard</a></li>
+      <li class="active"><a href="<?php echo base_url();?>index.php/penjadwalan/kurikulum">Dashboard</a></li>
     </ol>
   </section>
 

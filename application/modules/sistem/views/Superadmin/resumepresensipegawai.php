@@ -8,7 +8,7 @@
       <br>
     </h1>
     <ol class="breadcrumb">
-      <li><a href="<?php echo site_url('superadmin');?>">Dashboard</a></li>
+      <li><a href="<?php echo site_url('sistem/superadmin');?>">Dashboard</a></li>
     </ol>
   </section>
 

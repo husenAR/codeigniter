@@ -48,7 +48,9 @@
 
   <header class="main-header">
     <!-- Logo -->
-    <a href="<?php echo base_url ('dashboard');?>" class="logo">
+    <a href="<?php echo base_url();?>nilai/akademik/KALDIK" class="logo">
+
+    <!-- <a href="<?php echo base_url ('dashboard');?>" class="logo"> -->
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg"><b>SI</b>SMP</span>
@@ -117,7 +119,7 @@
       <!-- /.search form -->
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
-      <li class="header">KBM</li>
+      <!-- <li class="header">KBM</li> -->
       <li class="treeview">
         <a href="<?php echo base_url(); ?> ('index.php/nilaisiswa.php')">
           <i class="fa fa-dashboard"></i> <span>Kesiswaan</span>

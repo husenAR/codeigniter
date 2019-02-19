@@ -6,7 +6,9 @@
 
     <header class="main-header">
       <!-- Logo -->
-      <a href="dashboard.php" class="logo">
+      <a href="<?php echo base_url();?>nilai/akademik/KALDIK" class="logo">
+
+      <!-- <a href="dashboard.php" class="logo"> -->
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <!-- logo for regular state and mobile devices -->
         <span class="logo-lg"><b>SI</b>SMP</span>
@@ -75,7 +77,7 @@
         <!-- /.search form -->
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu">
-          <li class="header">KBM</li>
+          <!-- <li class="header">KBM</li> -->
           <?php
           if ($this->session->userdata("jabatan") == "Admin") {
             ?>

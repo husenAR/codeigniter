@@ -77,7 +77,7 @@
                           <?php
                           if ($this->session->userdata('jabatan') == 'Superadmin') {
                             ?>
-                            <a  href="<?php echo site_url('superadmin/detailspegawai/');?><?php echo $key->NIP; ?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Details</a>
+                            <a  href="<?php echo site_url('sistem/superadmin/detailspegawai/');?><?php echo $key->NIP; ?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Details</a>
                             <?php
                           } else if ($this->session->userdata('jabatan') == 'Kepala Sekolah') {
                             ?>
@@ -129,7 +129,7 @@
                         <?php
                         if ($this->session->userdata('jabatan') == 'Superadmin') {
                           ?>
-                          <a  href="<?php echo site_url('superadmin/detailspegawai/');?><?php echo $key->NIP; ?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Details</a>
+                          <a  href="<?php echo site_url('sistem/superadmin/detailspegawai/');?><?php echo $key->NIP; ?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Details</a>
                           <?php
                         } else if ($this->session->userdata('jabatan') == 'Kepala Sekolah') {
                           ?>
@@ -179,7 +179,7 @@
                     <?php
                     if ($this->session->userdata('jabatan') == 'Superadmin') {
                       ?>
-                      <a  href="<?php echo site_url('superadmin/detailspegawai/');?><?php echo $key->NIP; ?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Details</a>
+                      <a  href="<?php echo site_url('sistem/superadmin/detailspegawai/');?><?php echo $key->NIP; ?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Details</a>
                       <?php
                     } else if ($this->session->userdata('jabatan') == 'Kepala Sekolah') {
                       ?>
@@ -199,7 +199,7 @@
             </table>
           </div>
           <!-- tutup data pensiun -->
-    <a href="<?php echo site_url('superadmin/printpegawaibaru'); ?>" target="_blank" class="btnjdwl btn btn-default"><i class="fa fa-print text-red "></i>Print</a>
+    <a href="<?php echo site_url('sistem/superadmin/printpegawaibaru'); ?>" target="_blank" class="btnjdwl btn btn-default"><i class="fa fa-print text-red "></i>Print</a>
         </div> <!-- tutup content -->
       </div>
 
@@ -241,7 +241,7 @@
     ?>
     <br>
 
-    <?php echo form_open_multipart(site_url('superadmin/tambahdatpeg'), array("class"=>"form-horizontal formmapel")) ?>
+    <?php echo form_open_multipart(site_url('sistem/superadmin/tambahdatpeg'), array("class"=>"form-horizontal formmapel")) ?>
     <!--  -->
     <div class="bigbox-mapel"> 
       <div class="box-mapel">
@@ -614,11 +614,11 @@
               <?php 
               if ($this->session->userdata('jabatan') == 'Superadmin') {
                 ?>
-                <a  href="<?php echo site_url('superadmin/updatedatpeg/');?><?php echo $key->NIP; ?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Edit</a>
+                <a  href="<?php echo site_url('sistem/superadmin/updatedatpeg/');?><?php echo $key->NIP; ?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Edit</a>
                 <?php
               } else if ($this->session->userdata('jabatan') == 'Pegawai'){
                 ?>
-                <a  href="<?php echo site_url('pegawai/updatedatpeg/');?><?php echo $key->NIP; ?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Edit</a>
+                <a  href="<?php echo site_url('sistem/pegawai/updatedatpeg/');?><?php echo $key->NIP; ?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Edit</a>
                 <?php
               } 
               ?>
@@ -629,7 +629,7 @@
               if ($this->session->userdata('jabatan') == 'Superadmin') {
                 ?>
                 <div> <?php echo $this->session->flashdata('warning')?></div>
-                <form id="confirm<?= $key->NIP?>" method="post" action="<?php echo site_url('superadmin/deletedatpeg/'.$key->NIP);?>"  style="margin-top: 2%" >
+                <form id="confirm<?= $key->NIP?>" method="post" action="<?php echo site_url('sistem/superadmin/deletedatpeg/'.$key->NIP);?>"  style="margin-top: 2%" >
                   <button type="button" class="btn btn-primary btn-block btn-delete confirm<?= $key->NIP?>"   ><i class="glyphicon glyphicon-trash"></i></button> 
                 </form>
 
@@ -676,11 +676,11 @@
            <?php 
            if ($this->session->userdata('jabatan') == 'Superadmin') {
             ?>
-            <a  href="<?php echo site_url('superadmin/updatedatpeg/');?><?php echo $key->NIP; ?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Edit</a>
+            <a  href="<?php echo site_url('sistem/superadmin/updatedatpeg/');?><?php echo $key->NIP; ?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Edit</a>
             <?php
           } else if ($this->session->userdata('jabatan') == 'Pegawai'){
             ?>
-            <a  href="<?php echo site_url('pegawai/updatedatpeg/');?><?php echo $key->NIP; ?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Edit</a>
+            <a  href="<?php echo site_url('sistem/sistem/pegawai/updatedatpeg/');?><?php echo $key->NIP; ?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Edit</a>
             <?php
           } 
           ?>
@@ -692,7 +692,7 @@
             <!--  <a onclick="return confirm('Apakah Anda yakin akan menghapus data <?php echo $key->Nama?>?');" href="<?php echo site_url('superadmin/datpeg/'.$key->NIP);?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Delete</a>  -->
             <div> <?php echo $this->session->flashdata('warning')?></div>
 
-            <form id="confirm<?= $key->NIP?>" method="post" action="<?php echo site_url('superadmin/deletedatpeg/'.$key->NIP);?>"  style="margin-top: 2%">
+            <form id="confirm<?= $key->NIP?>" method="post" action="<?php echo site_url('sistem/superadmin/deletedatpeg/'.$key->NIP);?>"  style="margin-top: 2%">
               <button type="button" class="btn btn-primary btn-block btn-delete confirm<?= $key->NIP?>"><i class="glyphicon glyphicon-trash"></i></button> 
             </form>
 
@@ -739,11 +739,11 @@
       <?php 
       if ($this->session->userdata('jabatan') == 'Superadmin') {
         ?>
-        <a  href="<?php echo site_url('superadmin/updatedatpeg/');?><?php echo $key->NIP; ?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Edit</a>
+        <a  href="<?php echo site_url('sistem/superadmin/updatedatpeg/');?><?php echo $key->NIP; ?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Edit</a>
         <?php
       } else if ($this->session->userdata('jabatan') == 'Pegawai'){
         ?>
-        <a  href="<?php echo site_url('pegawai/updatedatpeg/');?><?php echo $key->NIP; ?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Edit</a>
+        <a  href="<?php echo site_url('sistem/pegawai/updatedatpeg/');?><?php echo $key->NIP; ?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Edit</a>
         <?php
       } 
       ?>
@@ -753,7 +753,7 @@
         ?> 
         <!--  <a onclick="return confirm('Apakah Anda yakin akan menghapus data <?php echo $key->Nama?>?');" href="<?php echo site_url('superadmin/deletedatpeg/'.$key->NIP);?>" type="button" role="button" class="btn btn-block btn-primary button-action btnedit">Delete</a>  -->
         <div> <?php echo $this->session->flashdata('warning')?></div>
-        <form id="confirm<?= $key->NIP?>" method="post" action="<?php echo site_url('superadmin/deletedatpeg/'.$key->NIP);?>"  style="margin-top: 2%">
+        <form id="confirm<?= $key->NIP?>" method="post" action="<?php echo site_url('sistem/superadmin/deletedatpeg/'.$key->NIP);?>"  style="margin-top: 2%">
           <button type="button" class="btn btn-primary btn-block btn-delete confirm<?= $key->NIP?>"   ><i class="glyphicon glyphicon-trash"></i></button> 
         </form>
         <?php
